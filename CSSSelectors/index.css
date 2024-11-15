@@ -1,0 +1,105 @@
+div
+{
+   color: #ffffff;
+}
+
+h3
+{
+     margin: 25px;
+    /* margin: 25px 20px 15px 10px; */
+    /* margin: 20px 10px; */
+    /* margin: 0 0 0 5px; */
+
+    /*margin-top: 5px;*/
+    /*margin-right: 5px;*/
+    /*margin-bottom: 5px;*/
+    /*margin-left: 20px;*/
+
+    /*border: 4px dotted deeppink;*/
+    border-width: 4px;
+    border-style: dotted;
+    border-color: deeppink;
+
+    /*border-bottom-color: red;*/
+    /*border-bottom-style: solid;*/
+
+    padding: 12px;
+    background-color: transparent;
+}
+
+body {
+    font-family: Tahoma, sans-serif;
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("assets/bkg.jpg");
+}
+
+.red-container
+{
+    color: #ff6363;
+}
+
+#js-hint
+{
+    text-align: center;
+}
+
+div#js-hint.red-container
+{
+    font-weight: bold;
+}
+
+.red-container.active
+{
+    text-decoration: underline;
+}
+
+.item-list > li
+{
+    color: darkviolet;
+}
+
+.item-list > li:first-child
+{
+    color: #00b6e3;
+}
+
+.item-list > li:nth-child(2)
+{
+    color: #ef303e;
+}
+
+.item-list > li:last-child
+{
+    color: #4f9f2b;
+}
+
+.even-list > li:nth-child(2n)
+{
+    color: white;
+}
+
+.even-list > li + li
+{
+    margin-top: 1rem; /* 1rem = 16px; */
+}
+
+p + ul.item-list {
+    margin-top: 0;
+}
+
+.even-list > li:not(:first-child)
+{
+    margin-top: 1rem;
+}
+
+/*.even-list div*/
+/*{*/
+/*    color: red;*/
+/*    font-size: 2rem;*/
+/*}*/
+
+
+
+
