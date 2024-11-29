@@ -42,7 +42,7 @@
     height: 420px;
     /* vertical */
     /*align-items: flex-start; !*!*flex-start, flex-end, center*!*!*/
-
+    flex-wrap: wrap;
     /*flex-direction: row; !* column, column-reverse, row-reverse *!*/
 }
 
