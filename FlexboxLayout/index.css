@@ -1,0 +1,56 @@
+.square
+{
+    width: 50px;
+    height: 50px;
+    background-color: deeppink;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square:nth-child(4)
+{
+    flex-grow: 0.10;
+}
+
+.square:nth-child(3)
+{
+    align-self: flex-end; /* flex-end, center */
+    flex-grow: 0.5;
+}
+
+.square:nth-child(2)
+{
+    flex-grow: 0.5;
+}
+
+.square:first-child
+{
+    flex-grow: 0.25;
+}
+
+
+.container
+{
+    border: 2px solid blueviolet;
+    display: flex;
+    /* horizontal */
+    /*justify-content: space-evenly; !*flex-start, flex-end, center, space-between, space-around *!*/
+    gap: 16px;
+    height: 420px;
+    /* vertical */
+    /*align-items: flex-start; !*!*flex-start, flex-end, center*!*!*/
+
+    /*flex-direction: row; !* column, column-reverse, row-reverse *!*/
+}
+
+
+@media screen and (max-width: 800px)
+{
+    .container
+    {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,62 @@
+body {
+    font-family: Tahoma, sans-serif;
+}
+
+#list
+{
+
+}
+
+div h1 ~ h3 {
+    color: green;
+}
+
+#list > li
+{
+    /*font-size: 20px;*/
+}
+
+/*div > h2 span*/
+/*{*/
+/*    color: red;*/
+/*}*/
+
+a {
+    color: #ff145b;
+    text-decoration: none;
+}
+
+a:hover, a:visited:hover
+{
+    color: #00ebff;
+}
+
+a:visited
+{
+    color: #aa00ff;
+}
+
+a:active, #container:active
+{
+    background-color: #00ffa2 !important;
+}
+
+#container:hover
+{
+    background-color: #ff145b;
+}
+
+#container
+{
+    background-color: #ffabc3;
+    width: 50%;
+    height: 100%;
+    transition: width 1s linear, background-color 1s linear;
+    min-width: 100px;
+    max-width: 900px;
+}
+
+#container:hover
+{
+    width: 100%;
+}
