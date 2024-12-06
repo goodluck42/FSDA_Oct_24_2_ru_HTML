@@ -1,0 +1,19 @@
+#header
+{
+    position: sticky;
+    top: 0;
+    height: 64px;
+    background-color: #6482AD;
+}
+
+body {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+
+#header-content {
+    height: inherit;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
