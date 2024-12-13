@@ -48,3 +48,10 @@
     width: 75%;
     height: auto;
 }
+
+.sticky-container
+{
+    position: sticky;
+    top: 0;
+    background-color: lawngreen;
+}

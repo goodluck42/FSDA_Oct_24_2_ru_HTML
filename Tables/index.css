@@ -1,0 +1,28 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.srezniki
+{
+    width: 100%;
+}
+
+.srezniki td
+{
+    text-align: center;
+}
+
+.srezniki tbody tr > td.srez
+{
+    background-color: crimson;
+}
+
+.srezniki tbody tr > td.ne-srez
+{
+    background-color: mediumspringgreen;
+}
+
+.srezniki tbody tr > td.maybe-srez
+{
+    background-color: sandybrown;
+}

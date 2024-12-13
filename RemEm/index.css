@@ -1,0 +1,43 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+}
+
+
+/*@media screen and (min-width: 1200px)  {*/
+/*    body {*/
+/*        font-size: 2rem;*/
+/*    }*/
+/*}*/
+
+.super-div div,
+.super-div
+{
+    font-size: 0.9em;
+}
+
+body {
+    height: 100vh; /* view height */
+}
+
+.header
+{
+    width: 90vw; /* view width*/
+    height: 50vh;
+    background-color: aqua;
+}
+
+/* Deprecated */
+
+.mydiv2
+{
+    /*font-size: 2cm;*/
+    /*font-size: 2in;*/
+    /*font-size: 16pt;*/
+}
+
+
+
+
+
+
