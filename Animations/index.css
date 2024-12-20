@@ -1,0 +1,93 @@
+body {
+    background-color: #2e2e2e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*transition: background-color linear 1s;*/
+}
+
+/*body:hover*/
+/*{*/
+/*    background-color: #fff;*/
+/*}*/
+
+a {
+    color: #be9edc;
+    text-decoration: none;
+    transition: color linear 1s;
+}
+
+a:visited {
+    color: #9edcc6;
+}
+
+a:hover {
+    color: #dc9e9e;
+}
+
+
+input[type=button] {
+    border-radius: 0;
+    border: 1px solid #a1ff00;
+    background-color: #ddff00;
+    color: #010ab3;
+    transition: border-color linear 1s,
+                background-color linear 1s,
+                color linear 1s,
+                width linear 1s;
+}
+
+input[type=button]:hover {
+    border-color: #6f009e;
+    background-color: #401e00;
+    color: #a60404;
+    width: 200px;
+}
+
+
+
+
+input[type=button]:active {
+    box-shadow: 0 0 1rem red;
+}
+
+#cherry
+{
+    position: absolute;
+    width: 99px;
+    height: 99px;
+    top: 0;
+    left: 0;
+    animation: MoveCherry linear 3s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    /*animation-play-state: paused;*/;
+    /*animation-fill-mode: inherit;*/
+    transform: scale(1);
+}
+
+
+@keyframes MoveCherry {
+    0% {
+        left: 0;
+    }
+
+    25% {
+        left: 94%;
+        top: 0;
+    }
+    50%
+    {
+        left: 94%;
+        top: 76%;
+    }
+
+    75%
+    {
+        top: 76%;
+        left: 0;
+    }
+    100%
+    {
+        top: 0;
+        left: 0;
+    }
+}
