@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Forms</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+
+<form id="login-form" action="http://localhost:5181/login_user" method="post">
+  <label>
+    <span>Login</span>
+    <input name="login" type="text" placeholder="Login...">
+  </label>
+ <label>
+   <span>Password</span>
+   <input name="pass" type="password" placeholder="Password...">
+ </label>
+  <label>
+    <span>Accept EULA</span>
+    <input name="eula" type="checkbox">
+  </label>
+  <label>
+    <input type="submit" value="Login">
+  </label>
+</form>
+
+<label>
+  <select>
+    <optgroup label="Group1">
+      <option>Opt1</option>
+      <option>Opt2</option>
+    </optgroup>
+    <optgroup label="Group2">
+      <option>Opt1</option>
+      <option>Opt2</option>
+    </optgroup>
+  </select>
+</label>
+
+</body>
+</html>

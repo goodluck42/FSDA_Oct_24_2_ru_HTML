@@ -1,0 +1,30 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, Verdana, sans-serif;
+}
+
+
+#login-form
+{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.5rem;
+}
+
+#login-form > label
+{
+    display: flex;
+    gap: 0.5rem;
+}
+
+#login-form > label > span
+{
+    width: 200px;
+    text-align: right;
+}
+
+#login-form > label:last-child
+{
+    justify-content: center;
+}
